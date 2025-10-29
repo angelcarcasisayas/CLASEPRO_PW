@@ -6,6 +6,10 @@ public class Main {
                 "aliens ajajjaj");
         System.out.print("\n\nComo son las cosas no? talvez esperaba algo diferente de estar aqui solo porque " +
                 " me preocupa mucho el bienestar de todos al mi alrededor talvez estaba con la cabeza fuera de su lugar");
+        // jajajaj
+        String miNombre= "Borja"; //null
+        miNombre = "Borja M. H.";
+
     }
 
 }
