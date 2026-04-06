@@ -1,14 +1,26 @@
+import model.Coche;
+import model.Comprador;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
-    public static void main(){
-        System.out.print("\n\nHola mundo");
-        System.out.print("\n\nHola universo");
-        System.out.print("\n\nHola humanos que bien que estan aqui por que me preocupaba mucho que solo estubieramos " +
-                "aliens ajajjaj");
-        System.out.print("\n\nComo son las cosas no? talvez esperaba algo diferente de estar aqui solo porque " +
-                " me preocupa mucho el bienestar de todos al mi alrededor talvez estaba con la cabeza fuera de su lugar");
-        // jajajaj
-        String miNombre= "Borja"; //null
-        miNombre = "Borja M. H.";
+    public void main(String[] args){
+        Scanner Lector= new Scanner(System.in);
+        var Lista= new ArrayList<String>();
+        //Tipo de Dato nombreVariable =Valor
+        Coche ford= new Coche("ford", "clase b", 200, 5000);
+        // marca= null; modelo= null; color=null; numeroPuertas= 0; cv=0; precio=0;
+        Coche mercedes= new Coche("mercedes","clase c", 300, 70000 );
+        // marca= null; modelo= null; color=null; numeroPuertas= 0; cv=0; precio=0;
+        Coche audi= new Coche();
+        // marca= null; modelo= null; color=null; numeroPuertas= 0; cv=0; precio=0;
+        Coche toyota= new Coche("toyota", 300, "clase r", 30000);
+        //marca= null , numeroPuertas=0 , modelo= null , precio= 0,
+        Comprador comprador= new Comprador("Angel", "Carcasi", "Calle los olivos", "angeñ@gmail.com", 613724582 );
+        mercedes.setPrecio(100000);
+        System.out.println("El precio del mercedes es de "+ mercedes.getPrecio());
+
 
     }
 

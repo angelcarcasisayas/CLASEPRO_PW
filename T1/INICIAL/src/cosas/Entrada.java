@@ -1,3 +1,5 @@
+package cosas;
+
 public class Entrada {
     //variables
     public static void main(String[]arg){

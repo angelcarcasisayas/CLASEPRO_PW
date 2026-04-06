@@ -1,3 +1,5 @@
+package cosas;
+
 import java.util.Scanner;
 
 public class Operadores {

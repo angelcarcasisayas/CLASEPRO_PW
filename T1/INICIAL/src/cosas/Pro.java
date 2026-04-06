@@ -1,3 +1,4 @@
+package cosas;
 
 public class Pro {
     static void main(String[] args) {
